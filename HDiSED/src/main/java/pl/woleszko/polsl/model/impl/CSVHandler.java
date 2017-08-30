@@ -10,9 +10,9 @@ public class CSVHandler<T extends Entity> {
 	private List<T> list;
 	
 	public void csvHandler(List<T> body) throws Exception {
-		log.debug("||------------------------||");
-		log.debug("||--List Initialization---||");
-		log.debug("||------------------------||");
+//		log.debug("||------------------------||");
+//		log.debug("||--List Initialization---||");
+//		log.debug("||------------------------||");
 		this.list = body;
 	}
 	
